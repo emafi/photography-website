@@ -1,0 +1,19 @@
+.nav-list {
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+    margin: 0 auto;
+    li {
+        margin: 20px 50px 0px 0px;
+    }
+    .nav-element{
+        opacity: .7;
+        &:active, &:focus{
+            outline: 0;
+            border: none;
+            opacity: 1;
+        }
+    }
+
+}
+
