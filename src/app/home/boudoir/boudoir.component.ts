@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-boudoir',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BoudoirComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    //setTimeout(() => {AOS.refresh();}, 100);
+   }
 
   ngOnInit(): void {
+    //AOS.init()
+    setTimeout(() => {AOS.refresh();}, 100);
+
   }
 
 }

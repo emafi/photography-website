@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit, HostListener } from '@angular/core';
 import * as AOS from 'aos';
-import { refresh } from 'aos';
 
 @Component({
   selector: 'app-home',
@@ -10,14 +9,13 @@ import { refresh } from 'aos';
 export class HomeComponent implements OnInit {
 
   constructor() {
-    AOS.refreshHard();
-   }
-
-  ngOnInit() {
-    AOS.init(
-    );
+    //setTimeout(() => {AOS.refresh();}, 100);
   }
 
+  ngOnInit() {
+    AOS.init()
+  }
 
+  
 
 }

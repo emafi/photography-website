@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-nature',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NatureComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+  }
 
   ngOnInit(): void {
+    //AOS.init()
+    setTimeout(() => {AOS.refresh();}, 100);
   }
 
 }

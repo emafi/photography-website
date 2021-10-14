@@ -7,11 +7,12 @@ import { UrbanComponent } from './home/urban/urban.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: 'home', component: HomeComponent},
   {path : 'boudoir', component: BoudoirComponent},
   {path : 'nature', component: NatureComponent},
   {path : 'people', component: PeopleComponent},
   {path : 'urban', component: UrbanComponent},
-  {path: '', component: HomeComponent}
 ];
 
 @NgModule({
