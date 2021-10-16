@@ -1,2 +1,96 @@
+.mobile-nav{
+    visibility: none;
+}
 
-  
+.home-photo-container{
+    margin: 5vh 0vh 5vh 0vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-img{
+    width: 600px;
+    height: 605px;
+    background-image: url("/../assets/petr-2.jpg");
+    background-size: cover;
+}
+
+.secondary-img{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        opacity: .7;
+        cursor: pointer;
+    }
+}
+
+.secondary-text{
+    text-transform: uppercase;
+    opacity: .8;
+    color: white;
+    font-size: 2wv;
+    font-family: 'Raleway';
+    text-shadow: 2px 1px black;    
+}
+
+.first{
+    background-image: url('/../assets/person-5.jpg');
+    
+}
+
+.second{
+    background-image: url('/../assets/urban-5.jpg');
+}
+
+.third{
+    background-image: url('/../assets/nature-4.jpg');
+}
+
+.fourth{
+    background-image: url('/../assets/boudoir-6.jpg');
+}
+
+@media screen and (max-width: 1180px) {
+    .main-img{
+        width: 300px;
+        height: 310px;
+    }
+
+    .secondary-img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .main-img{
+        width: 150px;
+        height: 155px;
+    }
+
+    .secondary-img{
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    // .home-photo-container{
+    //  display: flex;
+    //  flex-direction: column;
+    //  align-items: center;
+    //  justify-content: center;
+    //  >*{
+    //    display: flex;
+    //    flex-direction: column;
+    //    align-items: center;
+    //    justify-content: center;
+    //  }
+    // }
+}

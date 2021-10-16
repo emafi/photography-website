@@ -1,7 +1,6 @@
-//@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200;1,500&display=swap');
-
+.nav-container{
+    margin-bottom: 2vh;
+}
 
 .nav-list {
     list-style: none;
@@ -16,12 +15,21 @@
     }
     .nav-element{
         opacity: 1;
+        text-decoration: underline 0.10em rgba(black, 0);
+        transition: text-decoration-color ease-in-out 300ms;
+        
+
+        &:hover{
+            cursor: pointer;
+            text-decoration-color: rgba(black, .5);
+        }
         &:active, &:focus{
             outline: 0;
             border: none;
             opacity: .7;
-                }
+        }
     }
 
 }
+
 
