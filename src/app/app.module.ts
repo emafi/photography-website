@@ -21,7 +21,7 @@ import { HomeBarComponent } from './shared/home-bar/home-bar.component';
     PeopleComponent,
     BoudoirComponent,
     NavBarComponent,
-    HomeBarComponent
+    HomeBarComponent,
   ],
   imports: [
     BrowserModule,

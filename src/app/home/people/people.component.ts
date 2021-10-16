@@ -18,33 +18,5 @@ export class PeopleComponent implements OnInit {
     //AOS.init();
     setTimeout(() => {AOS.refresh();}, 100);
   }
-
-
-
-  // @HostListener("document: scroll")
-  // scrollFunction(){    
-  //   if ((    document.documentElement.scrollTop >= 0 && document.documentElement.scrollLeft >= 0)){
-  //     this.scroll_var = false;
-  //   } else if ((    document.documentElement.scrollTop < 0 && document.documentElement.scrollLeft < 0)){
-  //     this.scroll_var = false;
-  //   }
-  // }
-
-  // @HostListener("document: scroll")
-  // scrollFunction(){    
-  //   var bounding = document.documentElement.getBoundingClientRect();
-  //   if (bounding.top <= 0 &&
-  //     bounding.left == 0 
-  //     ) {
-  //       this.scroll_var = true;} 
-  //     else if (
-  //       bounding.top >= 0 &&
-  //       bounding.left >= 0 
-  //     ) {
-  //     this.scroll_var = false;
-  //   }
-
-  //   console.log(bounding.top, bounding.left)
-  // }
-
+  
 }
