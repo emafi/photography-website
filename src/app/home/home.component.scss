@@ -1,5 +1,5 @@
 .mobile-nav{
-    visibility: none;
+    display: none;
 }
 
 .home-photo-container{
@@ -81,16 +81,11 @@
 }
 
 @media screen and (max-width: 285px) {
-    // .home-photo-container{
-    //  display: flex;
-    //  flex-direction: column;
-    //  align-items: center;
-    //  justify-content: center;
-    //  >*{
-    //    display: flex;
-    //    flex-direction: column;
-    //    align-items: center;
-    //    justify-content: center;
-    //  }
-    // }
+    .mobile-nav{
+        display: inline-block;
+    }
+
+    .secondary-container{
+        display: none;
+    }
 }
