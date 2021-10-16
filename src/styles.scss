@@ -5,15 +5,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap');
+
 body{
     color: #2d2d2d;
     background-color: white;
     min-height: 100%;
-    margin-bottom: 3vh;
+    margin: 0 auto;
+    //margin-bottom: 3vh;
 }
 
 h1{
-    font-family: 'Permanent Marker', cursive;
+    //font-family: 'Permanent Marker', cursive;
+    //font-family: 'Raleway';
+    font-family: 'Fanwood Text', serif;
 }
 
 

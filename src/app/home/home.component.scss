@@ -31,12 +31,13 @@
 }
 
 .secondary-text{
-    text-transform: uppercase;
+    text-transform: lowercase;
     opacity: .8;
     color: white;
-    font-size: 2wv;
-    font-family: 'Raleway';
-    text-shadow: 2px 1px black;    
+    font-size: 3vw;
+    font-family: 'Fanwood Text', serif;
+
+    text-shadow: 2px 2px black;    
 }
 
 .first{
@@ -59,7 +60,7 @@
 @media screen and (max-width: 1180px) {
     .main-img{
         width: 300px;
-        height: 310px;
+        height: 305px;
     }
 
     .secondary-img{
@@ -70,19 +71,19 @@
 
 @media screen and (max-width: 590px) {
     .main-img{
-        width: 150px;
-        height: 155px;
+        width: 200px;
+        height: 205px;
     }
 
     .secondary-img{
-        width: 75px;
-        height: 75px;
+        width: 100px;
+        height: 100px;
     }
 }
 
-@media screen and (max-width: 285px) {
+@media screen and (max-width: 500px) {
     .mobile-nav{
-        display: inline-block;
+        display: block;
     }
 
     .secondary-container{

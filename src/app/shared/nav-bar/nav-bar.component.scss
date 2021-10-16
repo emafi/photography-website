@@ -4,14 +4,14 @@
 
 .nav-list {
     list-style: none;
-    display: inline-flex;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    //text-align: center;
+    text-align: justify;
+    justify-content: space-around;
     margin: 0 auto;
     li {
-        margin: 20px 50px 0px 0px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.2rem;
-        text-transform: uppercase;
+        font-family: 'Fanwood Text', serif;        ;
     }
     .nav-element{
         opacity: 1;
