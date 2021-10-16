@@ -15,6 +15,15 @@
     background-size: cover;
 }
 
+.contact-info{
+    list-style: none;
+    background-color: white;
+    li{
+        display: block;
+    }
+}
+
+
 .secondary-img{
     width: 300px;
     height: 300px;
@@ -36,7 +45,6 @@
     color: white;
     font-size: 3vw;
     font-family: 'Fanwood Text', serif;
-
     text-shadow: 2px 2px black;    
 }
 
@@ -69,19 +77,7 @@
     }
 }
 
-@media screen and (max-width: 590px) {
-    .main-img{
-        width: 200px;
-        height: 205px;
-    }
-
-    .secondary-img{
-        width: 100px;
-        height: 100px;
-    }
-}
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 595px) {
     .mobile-nav{
         display: block;
     }
