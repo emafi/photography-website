@@ -65,6 +65,18 @@
     background-image: url('/../assets/boudoir-6.jpg');
 }
 
+a{ color: black;
+    opacity: 1;
+        text-decoration: underline 0.10em rgba(black, 0);
+        transition: text-decoration-color ease-in-out 300ms;
+        
+
+        &:hover{
+            cursor: pointer;
+            text-decoration-color: rgba(black, .5);
+        }
+}
+
 @media screen and (max-width: 1180px) {
     .main-img{
         width: 300px;
