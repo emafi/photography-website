@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit, HostListener } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
 
 @Component({
@@ -9,7 +9,6 @@ import * as AOS from 'aos';
 export class HomeComponent implements OnInit {
 
   constructor() {
-    //setTimeout(() => {AOS.refresh();}, 100);
   }
 
   ngOnInit() {
