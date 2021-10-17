@@ -12,7 +12,6 @@ export class NatureComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    //AOS.init()
     setTimeout(() => {AOS.refresh();}, 100);
   }
 

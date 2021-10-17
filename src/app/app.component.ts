@@ -1,5 +1,4 @@
 import { Component, HostListener } from '@angular/core';
-import { Router } from '@angular/router';
 import * as AOS from 'aos';
 
 @Component({
@@ -11,10 +10,6 @@ import * as AOS from 'aos';
 
 export class AppComponent {
   title = 'photography-website';
-
-  constructor(public router: Router) {
-
-  }
 
   ngOnInit() {
     AOS.init();
