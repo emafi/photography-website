@@ -10,9 +10,11 @@ import * as AOS from 'aos';
 export class UrbanComponent implements OnInit {
 
   constructor() { 
+    //setTimeout(() => {AOS.refresh();}, 100);
   }
 
   ngOnInit(): void {
+    //AOS.init()
     setTimeout(() => {AOS.refresh();}, 100);
 
   }

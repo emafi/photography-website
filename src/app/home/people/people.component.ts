@@ -11,9 +11,11 @@ export class PeopleComponent implements OnInit {
 
 
   constructor() { 
+   //addEventListener('scroll', AOS.refresh);
   }
 
   ngOnInit(): void {
+    //AOS.init();
     setTimeout(() => {AOS.refresh();}, 100);
   }
   

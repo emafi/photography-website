@@ -11,7 +11,6 @@ import { PeopleComponent } from './home/people/people.component';
 import { BoudoirComponent } from './home/boudoir/boudoir.component';
 import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { HomeBarComponent } from './shared/home-bar/home-bar.component';
-import { PageContainerComponent } from './page-container/page-container.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +22,6 @@ import { PageContainerComponent } from './page-container/page-container.componen
     BoudoirComponent,
     NavBarComponent,
     HomeBarComponent,
-    PageContainerComponent,
   ],
   imports: [
     BrowserModule,
